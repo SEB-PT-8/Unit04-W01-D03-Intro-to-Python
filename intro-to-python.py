@@ -1,0 +1,1 @@
+print('Same as console.log()')
