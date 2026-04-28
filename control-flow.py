@@ -73,5 +73,43 @@ for student in my_students:
 try:
     print('dklnlksn')
     5/0
-except:
-    print('ERROR')
+except Exception as e:
+    print('ERROR ', e)
+
+
+
+
+
+# functions
+# 1. declaring a function
+def add_two_numbers(num1, num2):
+    print(num1 + num2)
+
+
+# 2. Calling a function
+add_two_numbers(10,7)
+
+
+
+def add_any_numbers(*args):
+    print(args)
+    sum = 0
+    for num in args:
+        sum+= num
+    return sum
+
+
+print(add_any_numbers(5,10,100,60,43,4,43,34,43,43))
+
+
+
+# lambda: like arrow function for Python
+
+def divide_two_numbers_normal(num1,num2):
+    return num1/num2
+
+#                    lambda param2, param2: function body
+divide_two_numbers = lambda num1, num2: num1/num2
+
+print(divide_two_numbers_normal(6,3))
+print(divide_two_numbers(10,2))
