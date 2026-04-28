@@ -1,3 +1,16 @@
-const myName = "OMar"
+function nameOfFunction(){
+    khaled
+    muqtada
+}
+sarah
 
-console.log(`My name is ${myName}`)
+if(true){
+
+}
+else{
+
+}
+
+for(let i =0; i<10; i++){
+
+}

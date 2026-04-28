@@ -68,3 +68,12 @@ my_course = 'SEB'
 
 print(f'my name is {my_name} and I take {my_course}')
 
+
+print(my_name.upper())
+print(my_name.lower())
+
+
+print('a' in 'welcome to our class')
+
+print(3 in [1,2,3,4,5])
+
