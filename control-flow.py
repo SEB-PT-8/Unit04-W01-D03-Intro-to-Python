@@ -67,3 +67,11 @@ my_students = ['Khaled','Muqtada','Sarah']
 # Same as forEach() in JS
 for student in my_students:
     print(student)
+
+
+
+try:
+    print('dklnlksn')
+    5/0
+except:
+    print('ERROR')
